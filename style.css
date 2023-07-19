@@ -113,6 +113,9 @@
     border: none;
     padding: 12px 22px;
 }
+.cards-section{
+    margin-bottom: 10px;
+}
 .online-games{
     color: #0B0223;
     text-align: right;
@@ -135,22 +138,80 @@
     font-family: Work Sans;
     font-size: 18px;
     font-weight: 400;
+    margin-top: 10px;
 }
 .card{
-    width: 160px;
-    height: 200px;
     border-radius: 16px;
     display: flex;
-    margin-left: 350px;
+    margin-left: 220px;
     margin-right: 150px;
-    gap: 12px;
+    margin-top: 30px;
+    gap: 15px;
 }
 .card img{
-    width: 160px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.s3{
+    width: 1500px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.b3{
+    margin-top: 270px;
+}
+.banner3{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    width: 300px;
+    height: 150px;
+    margin-left: 45px;
+}
+.play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.no-downloads{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.b3-description{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+width: 353px;
+margin-right: 400px;
+}
+.big-pic{
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+.big-pic img{
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+}
+.small-pic{
+    border: 10px solid #FFF;
+    margin-bottom: 300px;
+}
+.small-pic img{
+    width: 190px;
+    height: 250px;
+    border-radius: 8px;
 }
 .s4{
     width: 1500px;
