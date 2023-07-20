@@ -396,18 +396,3 @@ background-color: black;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-@media screen and (max-width:425px) {
-    .nav-container{
-        flex-direction: column;
-    }
-    .nav-items-container{
-        flex-direction: column;
-    }
-    .nav-items-container a{
-        margin-top: 5px;
-    }
-    .nav-items-container .follow-btn{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
